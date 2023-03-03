@@ -126,7 +126,7 @@ const ToDoList = () => {
                         <div className={styles.leftDiv}>
                             <BiCheckbox
                                 size={30}
-                                color="aqua"
+                                color="#293331"
                                 onClick={(e) => {
                                     taskCompleted(e, item.id);
                                 }}
@@ -134,7 +134,7 @@ const ToDoList = () => {
                             />
                             <BiCheckboxChecked
                                 size={30}
-                                color="aqua"
+                                color="#293331"
                                 className={item.isCompleted ? styles.visible : styles.invisible}
                                 onClick={(e) => {
                                     taskCompleted(e, item.id);
@@ -172,7 +172,7 @@ const ToDoList = () => {
                                 className={styles.visible}
                                 onClick={(e) => deletetask(e, item.id)}
                             >
-                                <MdDelete color="aqua" size={25} />
+                                <MdDelete color="#293331" size={25} />
                             </div>
                         )}
                     </li>

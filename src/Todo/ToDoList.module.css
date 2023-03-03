@@ -1,27 +1,33 @@
 .container {
-  background-color: black;
-  width: 70%;
-  height: 100vh;
+    padding-top: 10px;
+  background-color:#c8f7f0;
+  width: 55%;
+  height:95vh;
   margin: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   position: relative;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 8px#a1a0a0;
 }
+
 .heading {
-  font-size: 28px;
-  color: aqua;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:#293331;
   text-align: center;
 }
 
 .inputCss {
-  background: none;
-  border: 1px solid aqua;
-  padding: 0.5rem;
   display: flex;
+  background: none;
+  border: 1px solid #293331;
+  border-radius: 5px;
+  padding: 0.8rem;
   justify-content: space-between;
-  color: aliceblue;
-  width: 89%;
+  color: #c1f7ec;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -30,7 +36,7 @@
   border: none;
   outline: none;
   display: flex;
-  color: aliceblue;
+  color: #293331;
   width: 100%;
   font-size: 16px;
 }
@@ -56,7 +62,7 @@
 
 .list {
   font-size: 1rem;
-  color: aliceblue;
+  color: #293331;
   padding: 0.6rem 1.5rem;
   display: flex;
   justify-content: space-between;
@@ -69,11 +75,12 @@
 }
 .editInput {
   background-color: transparent;
-  color: aliceblue;
+  color: #293331;
   outline: none;
   font-size: 16px;
-  border: 1px solid aqua;
+  border: 1px solid#293331;
   padding: 0.2rem;
+  border-radius: 5px;
 }
 
 .leftDiv {
@@ -83,16 +90,19 @@
 
 .btnadd {
   padding: 0.5rem 1rem;
-  background-color: black;
-  border: 1px solid aqua;
-  color: aqua;
+  background-color: #293331;
+  border: 1px solid #293331;
+  color: #c1f7ec;
   cursor: pointer;
+  border-radius: 5px;
 }
 
 .updatebtn {
   background-color: black;
-  border: 1px solid aqua;
-  color: aqua;
+  border: 1px solid #293331;
+  padding: 7px 12px;
+  border-radius: 5px;
+  color: #c1f7ec;
   cursor: pointer;
 }
 
@@ -104,5 +114,6 @@
   justify-content: center;
   align-items: center;
   padding: 0.5rem 0rem;
-  background: aqua;
+  background:#2fad9a;
+  border-radius: 5px;
 }
